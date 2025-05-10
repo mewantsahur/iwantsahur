@@ -1,3 +1,29 @@
+CSS
+
+.quiz-option {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .quiz-option:hover {
+            background-color: #f5f5f5;
+        }
+        .selected {
+            background-color: #e7f4ff;
+            border-color: #86b7fe;
+        }
+        .correct {
+            background-color: #d4edda !important;
+            border-color: #c3e6cb !important;
+        }
+        .incorrect {
+            background-color: #f8d7da !important;
+            border-color: #f5c6cb !important;
+        }
+
+HTML/javascript
 <div class="row">
         <div class="col-md-4 mb-4">
             <div class="card text-center">
